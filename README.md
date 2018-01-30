@@ -6,7 +6,7 @@ Repro case for https://github.com/balderdashy/sails/issues/4271 (`sendNativeQuer
 
 1. Clone repo
 2. `npm install`
-3. Create a new mysql database to test with
+3. Create a new empty mysql database to test with (e.g. `create database test4271;`)
 4. Update `config/datastores.js` with connection info for new database
 5. `sails lift`
 6. Visit `http://localhost:1337`
