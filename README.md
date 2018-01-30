@@ -58,3 +58,7 @@ The page hangs.
 
 * Model in `api/models/Pet.js`
 * Endpoint in `config/routes.js` (code adapted from https://next.sailsjs.com/documentation/reference/waterline-orm/datastores/send-native-query#?example)
+
+## Workarounds ##
+
+* Downgrading to `sails-mysql` v1.0.0-15 resolves the issue.
