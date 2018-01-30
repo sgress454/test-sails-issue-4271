@@ -11,7 +11,7 @@ Repro case for https://github.com/balderdashy/sails/issues/4271 (`sendNativeQuer
 5. `sails lift`
 6. Visit `http://localhost:1337`
 
-** Expected result **
+**Expected result**
 
 A raw MySQL database result should be displayed, similar to:
 ```
@@ -50,7 +50,7 @@ A raw MySQL database result should be displayed, similar to:
 }
 ```
 
-** Actual result **
+**Actual result**
 
 The page hangs.
 
